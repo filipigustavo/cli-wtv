@@ -1,0 +1,28 @@
+{
+  "name": "@filipigustavo/cli-wtv",
+  "version": "0.0.1",
+  "description": "Test for cli FTW!",
+  "main": "bin/cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/filipigustavo/cli-wtv.git"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "Filipi Gustavo <email@filipigustavo.com.br>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/filipigustavo/cli-wtv/issues"
+  },
+  "homepage": "https://github.com/filipigustavo/cli-wtv#readme",
+  "dependencies": {
+    "commander": "^8.1.0"
+  },
+  "bin": {
+    "filipigustavo-wtv": "bin/cli.js"
+  }
+}
